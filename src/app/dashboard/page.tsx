@@ -68,6 +68,7 @@ export default function Dashboard() {
         },
         body: JSON.stringify(event),
       });
+      bcbdbchd;
 
       if (!response.ok) {
         throw new Error("Failed to create event");
